@@ -20,7 +20,7 @@ My work can be read mainly in *Nexos*, one of the main policial analysis magazin
 
 &nbsp;
 
-# On *Nexos* Magazine
+# *Nexos* magazine, relevant projects
 
 My work related on corruption can be read here:
 
@@ -39,6 +39,13 @@ https://datos.nexos.com.mx/?author_name=manuel-toral
 
 # Some relevant projects
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ## **El neoliberalismo a vuelo de pájaro** (*A Quick View of Neoliberalism*): This was an analysis of the concept of *neoliberalism* in academic literature in English. This project's motivation was the rethorical use of the concept in Mexican politics. [https://datos.nexos.com.mx/?p=943](https://datos.nexos.com.mx/?p=943)
 
 &nbsp;
@@ -54,7 +61,7 @@ https://datos.nexos.com.mx/?author_name=manuel-toral
 ![Main journals with articles on "neoliberalism"](img/neoliberalismo/05-journal.png)
 
 
-![Top authors articles on "neoliberalism"](img/neoliberalismo/08-topau.png)
+![Top authors of articles on "neoliberalism"](img/neoliberalismo/08-topau.png)
 
 
 ![Co-citation network articles on "neoliberalism"](img/neoliberalismo/09-red_autores.png)
@@ -68,9 +75,11 @@ https://datos.nexos.com.mx/?author_name=manuel-toral
 
 ## **Breve panorama de la sociedad civil** (*A Brief Panorama of the NGO Sector*): This was an three-part analysisi that tried to give a general overview of the situation of Mexican NGO sector.
 
-    - Part 1:[https://anticorrupcion.nexos.com.mx/?p=572](https://datos.nexos.com.mx/?p=943)
-    - Part 2:[https://anticorrupcion.nexos.com.mx/?p=619](https://datos.nexos.com.mx/?p=943)
-    - Part 3:[https://anticorrupcion.nexos.com.mx/?p=661](https://datos.nexos.com.mx/?p=943)
+- Part 1:[https://anticorrupcion.nexos.com.mx/?p=572](https://datos.nexos.com.mx/?p=943)
+
+- Part 2:[https://anticorrupcion.nexos.com.mx/?p=619](https://datos.nexos.com.mx/?p=943)
+
+- Part 3:[https://anticorrupcion.nexos.com.mx/?p=661](https://datos.nexos.com.mx/?p=943)
     
 &nbsp;
 
