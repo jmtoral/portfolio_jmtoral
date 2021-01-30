@@ -1,9 +1,24 @@
 ---
-title: "Personal Website"
+title: "Manuel Toral: A Portfolio"
+output: 
+  html_document: 
+    toc: yes
 ---
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # A general comment on my work
 
 My work can be read mainly in *Nexos*, one of the main policial analysis magazines in Mexico. This work was mainly made in Spanish.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 # On *Nexos* Magazine
 
@@ -15,10 +30,20 @@ My work related to crime and discourse analysisis here:
 
 https://datos.nexos.com.mx/?author_name=manuel-toral
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 # Some relevant projects
 
-- **El neoliberalismo a vielo de pájaro** (*A Quick View of Neoliberalism*): This was an analysis of the concept of *neoliberalism* in academic literature in English. This project's motivation was the rethorical use of the concept in Mexican politics. [https://datos.nexos.com.mx/?p=943](https://datos.nexos.com.mx/?p=943)
+## **El neoliberalismo a vuelo de pájaro** (*A Quick View of Neoliberalism*): This was an analysis of the concept of *neoliberalism* in academic literature in English. This project's motivation was the rethorical use of the concept in Mexican politics. [https://datos.nexos.com.mx/?p=943](https://datos.nexos.com.mx/?p=943)
+
+&nbsp;
+
+
 
 ![Academic articles on "neoliberalism"](img/neoliberalismo/01-yr.png)
 
@@ -34,14 +59,29 @@ https://datos.nexos.com.mx/?author_name=manuel-toral
 
 ![Co-citation network articles on "neoliberalism"](img/neoliberalismo/09-red_autores.png)
 
+&nbsp;
 
-- **Breve panorama de la sociedad civil** (*A Brief Panorama of the NGO Sector*): This was an three-part analysisi that tried to give a general overview of the situation of Mexican NGO sector.
+&nbsp;
+
+&nbsp;
+
+
+## **Breve panorama de la sociedad civil** (*A Brief Panorama of the NGO Sector*): This was an three-part analysisi that tried to give a general overview of the situation of Mexican NGO sector.
 
     - Part 1:[https://anticorrupcion.nexos.com.mx/?p=572](https://datos.nexos.com.mx/?p=943)
     - Part 2:[https://anticorrupcion.nexos.com.mx/?p=619](https://datos.nexos.com.mx/?p=943)
     - Part 3:[https://anticorrupcion.nexos.com.mx/?p=661](https://datos.nexos.com.mx/?p=943)
     
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+
 ![NGOs by year of foundation](img/osc/sociedad-7.jpg)
+
 
 ![NGOs per 100k rate by municipality in MExico](img/osc/sociedad-2.jpg)
 
@@ -51,8 +91,20 @@ https://datos.nexos.com.mx/?author_name=manuel-toral
 
 ![Distribution of NGOs grants](img/osc/sociedad-fig-3.jpg)
 
+&nbsp;
 
-- **En busca del cadáver del neoliberalismo: 14 años del Trimestre Económico** (*Looking for the corpse of neoliberalism*)[https://datos.nexos.com.mx/?p=807](https://datos.nexos.com.mx/?p=807): In this analysis I evaluate the most important academic journal in Economics in Spanish language: *El Trimestre Económico*. Mexican government changed the editorial line to a "non-neoliberal option".
+&nbsp;
+
+&nbsp;
+
+
+## **En busca del cadáver del neoliberalismo: 14 años del Trimestre Económico** (*Looking for the corpse of neoliberalism*)[https://datos.nexos.com.mx/?p=807](https://datos.nexos.com.mx/?p=807): In this analysis I evaluate the most important academic journal in Economics in Spanish language: *El Trimestre Económico*. Mexican government changed the editorial line to a "non-neoliberal option".
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 
 ![Country of autors' univesity affiliation](img/trimestre/mapa.png)
@@ -70,9 +122,21 @@ https://datos.nexos.com.mx/?author_name=manuel-toral
 
 ![Wordcloud of the entire journal](img/trimestre/w1.png)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 
-- **Redes y propaganda: publicidad oficial en internet** (*Social networks and propaganda: government's ad on internet*)[https://anticorrupcion.nexos.com.mx/?p=300](https://anticorrupcion.nexos.com.mx/?p=300): In this analysis I evaluate the spending of Mexican Government on internet advertising.
+## **Redes y propaganda: publicidad oficial en internet** (*Social networks and propaganda: government's ad on internet*)[https://anticorrupcion.nexos.com.mx/?p=300](https://anticorrupcion.nexos.com.mx/?p=300): In this analysis I evaluate the spending of Mexican Government on internet advertising.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 ![Spending on advertising by type](img/publicidad/figura-1.jpg)
 
