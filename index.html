@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Personal Website</title>
+
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Manuel Toral's portfolio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Main Projects</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Personal Website</h1>
+
+</div>
+
+
+<div id="a-general-comment-on-my-work" class="section level1">
+<h1>A general comment on my work</h1>
+<p>My work can be read mainly in <em>Nexos</em>, one of the main policial analysis magazines in Mexico. This work was mainly made in Spanish.</p>
+</div>
+<div id="on-nexos-magazine" class="section level1">
+<h1>On <em>Nexos</em> Magazine</h1>
+<p>My work related on corruption can be read here:</p>
+<p><a href="https://anticorrupcion.nexos.com.mx/?author_name=manuel-toral" class="uri">https://anticorrupcion.nexos.com.mx/?author_name=manuel-toral</a></p>
+<p>My work related to crime and discourse analysisis here:</p>
+<p><a href="https://datos.nexos.com.mx/?author_name=manuel-toral" class="uri">https://datos.nexos.com.mx/?author_name=manuel-toral</a></p>
+</div>
+<div id="some-relevant-projects" class="section level1">
+<h1>Some relevant projects</h1>
+<ul>
+<li><strong>El neoliberalismo a vielo de pájaro</strong> (<em>A Quick View of Neoliberalism</em>): This was an analysis of the concept of <em>neoliberalism</em> in academic literature in English. This project’s motivation was the rethorical use of the concept in Mexican politics. <a href="https://datos.nexos.com.mx/?p=943">https://datos.nexos.com.mx/?p=943</a></li>
+</ul>
+<div class="figure">
+<img src="img/neoliberalismo/01-yr.png" alt="" />
+<p class="caption">Academic articles on “neoliberalism”</p>
+</div>
+<div class="figure">
+<img src="img/neoliberalismo/02-paises.png" alt="" />
+<p class="caption">Country origin of “neoliberalism” articles</p>
+</div>
+<div class="figure">
+<img src="img/neoliberalismo/05-journal.png" alt="" />
+<p class="caption">Main journals with articles on “neoliberalism”</p>
+</div>
+<div class="figure">
+<img src="img/neoliberalismo/08-topau.png" alt="" />
+<p class="caption">Top authors articles on “neoliberalism”</p>
+</div>
+<div class="figure">
+<img src="img/neoliberalismo/09-red_autores.png" alt="" />
+<p class="caption">Co-citation network articles on “neoliberalism”</p>
+</div>
+<ul>
+<li><p><strong>Breve panorama de la sociedad civil</strong> (<em>A Brief Panorama of the NGO Sector</em>): This was an three-part analysisi that tried to give a general overview of the situation of Mexican NGO sector.</p>
+<ul>
+<li>Part 1:<a href="https://datos.nexos.com.mx/?p=943">https://anticorrupcion.nexos.com.mx/?p=572</a></li>
+<li>Part 2:<a href="https://datos.nexos.com.mx/?p=943">https://anticorrupcion.nexos.com.mx/?p=619</a></li>
+<li>Part 3:<a href="https://datos.nexos.com.mx/?p=943">https://anticorrupcion.nexos.com.mx/?p=661</a></li>
+</ul></li>
+</ul>
+<div class="figure">
+<img src="img/osc/sociedad-7.jpg" alt="" />
+<p class="caption">NGOs by year of foundation</p>
+</div>
+<div class="figure">
+<img src="img/osc/sociedad-2.jpg" alt="" />
+<p class="caption">NGOs per 100k rate by municipality in MExico</p>
+</div>
+<div class="figure">
+<img src="img/osc/donativos-8.png" alt="" />
+<p class="caption">NGOs beneficiaries of Mexican Executive Power grants</p>
+</div>
+<div class="figure">
+<img src="img/osc/donativos-4.png" alt="" />
+<p class="caption">NGOs beneficiaries of Mexican Congress grants</p>
+</div>
+<div class="figure">
+<img src="img/osc/sociedad-fig-3.jpg" alt="" />
+<p class="caption">Distribution of NGOs grants</p>
+</div>
+<ul>
+<li><strong>En busca del cadáver del neoliberalismo: 14 años del Trimestre Económico</strong> (<em>Looking for the corpse of neoliberalism</em>)<a href="https://datos.nexos.com.mx/?p=807">https://datos.nexos.com.mx/?p=807</a>: In this analysis I evaluate the most important academic journal in Economics in Spanish language: <em>El Trimestre Económico</em>. Mexican government changed the editorial line to a “non-neoliberal option”.</li>
+</ul>
+<div class="figure">
+<img src="img/trimestre/mapa.png" alt="" />
+<p class="caption">Country of autors’ univesity affiliation</p>
+</div>
+<div class="figure">
+<img src="img/trimestre/red.png" alt="" />
+<p class="caption">Bigram network of articles</p>
+</div>
+<div class="figure">
+<img src="img/trimestre/sexoyr.png" alt="" />
+<p class="caption">Percentage of women authors</p>
+</div>
+<div class="figure">
+<img src="img/trimestre/tree1.png" alt="" />
+<p class="caption">Proportion of keywords</p>
+</div>
+<div class="figure">
+<img src="img/trimestre/w1.png" alt="" />
+<p class="caption">Wordcloud of the entire journal</p>
+</div>
+<ul>
+<li><strong>Redes y propaganda: publicidad oficial en internet</strong> (<em>Social networks and propaganda: government’s ad on internet</em>)<a href="https://anticorrupcion.nexos.com.mx/?p=300">https://anticorrupcion.nexos.com.mx/?p=300</a>: In this analysis I evaluate the spending of Mexican Government on internet advertising.</li>
+</ul>
+<div class="figure">
+<img src="img/publicidad/figura-1.jpg" alt="" />
+<p class="caption">Spending on advertising by type</p>
+</div>
+<div class="figure">
+<img src="img/publicidad/figura-5.jpg" alt="" />
+<p class="caption">Network spending on internet advertising</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

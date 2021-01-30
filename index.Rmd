@@ -1,0 +1,79 @@
+---
+title: "Personal Website"
+---
+# A general comment on my work
+
+My work can be read mainly in *Nexos*, one of the main policial analysis magazines in Mexico. This work was mainly made in Spanish.
+
+# On *Nexos* Magazine
+
+My work related on corruption can be read here:
+
+https://anticorrupcion.nexos.com.mx/?author_name=manuel-toral
+
+My work related to crime and discourse analysisis here:
+
+https://datos.nexos.com.mx/?author_name=manuel-toral
+
+
+# Some relevant projects
+
+- **El neoliberalismo a vielo de pájaro** (*A Quick View of Neoliberalism*): This was an analysis of the concept of *neoliberalism* in academic literature in English. This project's motivation was the rethorical use of the concept in Mexican politics. [https://datos.nexos.com.mx/?p=943](https://datos.nexos.com.mx/?p=943)
+
+![Academic articles on "neoliberalism"](img/neoliberalismo/01-yr.png)
+
+
+
+![Country origin of "neoliberalism" articles](img/neoliberalismo/02-paises.png)
+
+![Main journals with articles on "neoliberalism"](img/neoliberalismo/05-journal.png)
+
+
+![Top authors articles on "neoliberalism"](img/neoliberalismo/08-topau.png)
+
+
+![Co-citation network articles on "neoliberalism"](img/neoliberalismo/09-red_autores.png)
+
+
+- **Breve panorama de la sociedad civil** (*A Brief Panorama of the NGO Sector*): This was an three-part analysisi that tried to give a general overview of the situation of Mexican NGO sector.
+
+    - Part 1:[https://anticorrupcion.nexos.com.mx/?p=572](https://datos.nexos.com.mx/?p=943)
+    - Part 2:[https://anticorrupcion.nexos.com.mx/?p=619](https://datos.nexos.com.mx/?p=943)
+    - Part 3:[https://anticorrupcion.nexos.com.mx/?p=661](https://datos.nexos.com.mx/?p=943)
+    
+![NGOs by year of foundation](img/osc/sociedad-7.jpg)
+
+![NGOs per 100k rate by municipality in MExico](img/osc/sociedad-2.jpg)
+
+![NGOs beneficiaries of Mexican Executive Power grants](img/osc/donativos-8.png)
+
+![NGOs beneficiaries of Mexican Congress grants](img/osc/donativos-4.png)
+
+![Distribution of NGOs grants](img/osc/sociedad-fig-3.jpg)
+
+
+- **En busca del cadáver del neoliberalismo: 14 años del Trimestre Económico** (*Looking for the corpse of neoliberalism*)[https://datos.nexos.com.mx/?p=807](https://datos.nexos.com.mx/?p=807): In this analysis I evaluate the most important academic journal in Economics in Spanish language: *El Trimestre Económico*. Mexican government changed the editorial line to a "non-neoliberal option".
+
+
+![Country of autors' univesity affiliation](img/trimestre/mapa.png)
+
+
+![Bigram network of articles](img/trimestre/red.png)
+
+
+![Percentage of women authors](img/trimestre/sexoyr.png)
+
+
+![Proportion of keywords](img/trimestre/tree1.png)
+
+
+
+![Wordcloud of the entire journal](img/trimestre/w1.png)
+
+
+
+- **Redes y propaganda: publicidad oficial en internet** (*Social networks and propaganda: government's ad on internet*)[https://anticorrupcion.nexos.com.mx/?p=300](https://anticorrupcion.nexos.com.mx/?p=300): In this analysis I evaluate the spending of Mexican Government on internet advertising.
+
+![Spending on advertising by type](img/publicidad/figura-1.jpg)
+
+![Network spending on internet advertising](img/publicidad/figura-5.jpg)

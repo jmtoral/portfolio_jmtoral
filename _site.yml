@@ -1,0 +1,10 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Manuel Toral's portfolio"
+  left:
+    - text: "Main Projects"
+      href: index.html
+output:
+  html_document:
+    theme: flatly
